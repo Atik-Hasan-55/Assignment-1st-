@@ -12,21 +12,21 @@
 .btn{
     padding: 15px 30px;
     background-color: blue;
-    color: wheat;
+    color: white;
     font-weight: bold;
     border-radius: 10px;
     border: none;
     transition: all 1s;
 }
 .btn:hover{
-    background-color: rgb(0, 0, 255);
+    background-color:whitesmoke;
     color: black;
     border-radius: 10px;
     border: none;
     font-weight: bold;
     transition: all 1s;
     transform: scale(1.1);
-    box-shadow: 0px 5px 19px rgba(128, 0, 128, 0.526);
+    box-shadow: 0px 5px 19px rgba(128, 0, 128, 0.691);
 }
 
 .btn-white{
@@ -261,7 +261,7 @@ nav{
 }
 
 .btn:hover{
-    background:#1746e0;
+    /* background:#1746e0; */
 }
 
 /* footer section */
