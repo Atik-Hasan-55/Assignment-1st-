@@ -1,0 +1,1 @@
+give me upload photo related you make ,Something messing AI section ,i don,t who item beautiful, you know that who item beautiful , you any item make but my project related , give code html and css only
