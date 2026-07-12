@@ -28,18 +28,23 @@
     transform: scale(1.1);
     box-shadow: 0px 5px 19px rgba(128, 0, 128, 0.526);
 }
+
+.btn-white{
+ padding: 15px 105px ;
+ background-color: white;
+ color: blue;
+ border: 1px solid blue;
+ border-radius: 10px;
+
+}
+.btn-blue{
+    background-color: blue;
+    color: white;
+    padding: 15px 120px;
+    border: none;
+    border-radius: 10px;
+}
 /* speakers section */
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -47,7 +52,8 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 30px 40px;
+    margin: 20px 40px;
+    align-items: center;
 }
 .nav ul{
     display: flex;
@@ -79,7 +85,7 @@ nav{
     font-size: 60px;
 }
 .writing div{
-   margin-top: 32%;
+   margin-top: 30%;
 }
 /* speack section */
 
@@ -114,12 +120,13 @@ nav{
     
 }
 .speak{
-    margin-bottom: 150px;
+    margin-bottom: 80px;
    
 }
 .speak h1{
     text-align: center;
     margin-bottom: 50px;
+    font-size: 50px;
 }
 .parent h5,h2,P {
     margin: 12px 16px;
@@ -128,3 +135,53 @@ nav{
     color: blue;
     text-transform:uppercase ;
 }
+
+ /* Secure sport section */
+
+ .secure{
+    margin-bottom: 170px;
+ }
+.secure button{
+    align-items: center;
+    text-align: center;
+}
+.spot-head h1{
+   text-align: center;
+   font-size: 50px;
+  
+}
+.spot-head p{
+    text-align: center;
+}
+.spot-head{
+     margin-bottom: 30px;
+}
+
+ .chat-contant{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 0px 100px;
+    height: 400px;
+    width: 100%px;
+  
+ }
+ .chat-box{
+    border: 1px solid rgba(0, 0, 0, 0.229);
+    border-radius: 10px;
+
+ }
+ .chat-box *{
+    margin: 20px 20px;
+    
+ }
+ ul li::marker{
+    color: blue;
+ }
+ .secure h5{
+    text-transform: uppercase;
+ }
+ .blue{
+    background-color: black;
+    color: white;
+ }
