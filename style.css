@@ -17,6 +17,7 @@
     border-radius: 10px;
     border: none;
     transition: all 1s;
+    cursor: pointer;
 }
 .btn:hover{
     background-color:whitesmoke;
@@ -27,6 +28,7 @@
     transition: all 1s;
     transform: scale(1.1);
     box-shadow: 0px 5px 19px rgba(128, 0, 128, 0.691);
+    cursor: pointer;
 }
 
 .btn-white{
@@ -35,6 +37,7 @@
  color: blue;
  border: 1px solid blue;
  border-radius: 10px;
+ cursor: pointer;
 
 }
 .btn-blue{
@@ -43,6 +46,7 @@
     padding: 15px 120px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 /* speakers section */
 
