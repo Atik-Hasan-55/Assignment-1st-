@@ -28,6 +28,7 @@
     transform: scale(1.1);
     box-shadow: 0px 5px 19px rgba(128, 0, 128, 0.526);
 }
+/* speakers section */
 
 
 
@@ -59,15 +60,15 @@ nav{
 }
 /* hero section */
 .hero{
-    margin-bottom: 150px;
+    margin-bottom: 50px;
    background-image: linear-gradient(rgba(0,0,0,0.6),
    rgba(0,0,0,0.6)),
    url("./asset/banner.jpg");
    width: auto;
    height: 700px;
    background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
+   /* background-position: center;
+   background-repeat: no-repeat; */
 }
 .writing{
     color: white;
@@ -79,4 +80,51 @@ nav{
 }
 .writing div{
    margin-top: 32%;
+}
+/* speack section */
+
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+     /* border: 2px solid greenyellow; */
+     /* width: 500px; */
+     padding: 0px 70px;
+    
+}
+.child {
+    
+   border: 1px solid rgba(0, 0, 0, 0.098);
+   border-radius: 10px;
+    
+      /* width: 100%; */
+
+   
+}
+
+.child img{
+    width: 100%;
+    display: block;
+   object-fit: cover;
+ 
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+      
+    
+}
+.speak{
+    margin-bottom: 150px;
+   
+}
+.speak h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.parent h5,h2,P {
+    margin: 12px 16px;
+}
+.parent h5{
+    color: blue;
+    text-transform:uppercase ;
 }
