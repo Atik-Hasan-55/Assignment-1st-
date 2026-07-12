@@ -276,8 +276,9 @@ nav{
 
 .fotters{
 padding-bottom: 30px;
-margin-bottom: 90px;
+margin-bottom: 50px;
 }
+
 .footer-contain{
     display: flex;
     justify-content: space-between;
@@ -297,6 +298,7 @@ margin-bottom: 90px;
 .©{
     text-align: center;
     padding: 5px 0px;
+    margin-bottom: 60px;
 }
 .footer-contain img:hover{
     transition: all 1s;
