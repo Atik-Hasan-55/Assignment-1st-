@@ -30,7 +30,7 @@
 }
 
 .btn-white{
- padding: 15px 105px ;
+ padding: 15px 100px ;
  background-color: white;
  color: blue;
  border: 1px solid blue;
@@ -160,21 +160,28 @@ nav{
  .chat-contant{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+    gap: 30px;
     padding: 0px 100px;
     height: 400px;
-    width: 100%px;
+    width: 100%;
   
  }
  .chat-box{
     border: 1px solid rgba(0, 0, 0, 0.229);
     border-radius: 10px;
+    transition: all 1s;
 
  }
  .chat-box *{
     margin: 20px 20px;
     
  }
+ .chat-box:hover{
+    transition: all 1s;
+    transform: scale(1.05);
+    box-shadow: 0px 5px 19px rgba(128, 0, 128, 0.691);
+}
+ 
  ul li::marker{
     color: blue;
  }
@@ -185,7 +192,14 @@ nav{
     background-color: black;
     color: white;
  }
- 
+ .hro{
+    border: none;
+    border-top:1px solid #ffffff19;
+ }
+ hr{
+    border: none;
+    border-top:1px solid #77777766;
+ }
  /* AI section */
  .ai-section{
     padding:100px 20px;
