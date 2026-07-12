@@ -263,3 +263,43 @@ nav{
 .btn:hover{
     background:#1746e0;
 }
+
+/* footer section */
+.fotter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+
+.fotters{
+padding-bottom: 30px;
+margin-bottom: 90px;
+}
+.footer-contain{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-contain img{
+    border-radius: 50%;
+    width: 40px;
+    transition: all 1s;
+    margin: 0px 4px;
+    margin-bottom: 3px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.©{
+    text-align: center;
+    padding: 5px 0px;
+}
+.footer-contain img:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+    
+}
